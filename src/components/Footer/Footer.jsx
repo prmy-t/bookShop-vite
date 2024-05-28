@@ -1,9 +1,9 @@
 function Footer(){
     return(
 
-        <footer className="absolute bottom-0 w-full rounded-md shadow bg-emerald-700 text-white">
+        <footer className="sticky bottom-0 w-full rounded-md shadow bg-emerald-700 text-white">
             <div className="flex flex-col lg:flex-row justify-between p-4 py-3">
-                <span className="flex text-sm justify-center sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">Book Shop</a>. All Rights Reserved.
+                <span className="flex text-sm justify-center sm:text-center dark:text-gray-400">© 2024 <a href="#" className="hover:underline ml-2">Book Shop</a>. All Rights Reserved.
                 </span>
                 <ul className="flex items-center justify-center mt-3 text-sm font-medium  dark:text-gray-400 sm:mt-0">
                     <li>
